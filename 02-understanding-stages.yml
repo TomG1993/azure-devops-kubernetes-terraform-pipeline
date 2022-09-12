@@ -20,7 +20,7 @@ stages:
   jobs:
   - job: DevDeployJob
     steps:
-    - bash: echo $(environmemt)Deploy first job
+    - bash: echo $(environment)Deploy first job
 - stage: QADeploy
   variables:
     environment: QA
